@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platformer</title>
+    <link href="platformer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="js/utility.js"></script>
+    <script defer src="js/classes/Sprite.js"></script>
+    <script defer src="js/classes/Player.js"></script>
+    <script defer src="js/classes/CollisionBlock.js"></script>
+    <script defer src="js/data/Collision.js"></script>
+    <script defer src="js/EventListeners.js"></script>
+    <script defer src="platformer.js"></script>
+</head>
+<body id="body">
+    <div id="centering2">
+        <div id="choice"></div>
+    </div>
+    <div id="centering">
+        <canvas></canvas>
+    </div>
+    <div class="vt323-regular" id="fullscreen">fullscreen</div>
+    <div id="time">
+        <span class="digit vt323-regular" id="min">00</span>
+        <span class="number vt323-regular" id="text1">min</span>
+        <span class="digit vt323-regular" id="sec">00</span>
+        <span class="number vt323-regular" id="text2">sec</span>
+        <span class="digit vt323-regular" id="count">00</span>
+    </div>
+</body>
+</html>
